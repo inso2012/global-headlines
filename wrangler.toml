@@ -1,0 +1,11 @@
+name = "global-headlines"
+compatibility_date = "2025-01-01"
+
+[ai]
+binding = "AI"
+
+[vars]
+# Non-secret env vars go here
+
+# Pages-specific build config is handled via the deploy command:
+#   wrangler pages deploy dist
