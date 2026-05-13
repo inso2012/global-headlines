@@ -1,11 +1,10 @@
 name = "global-headlines"
 compatibility_date = "2025-01-01"
+# Tell wrangler this is a Pages project so `wrangler deploy` knows where the built site lives.
+pages_build_output_dir = "./dist"
 
 [ai]
 binding = "AI"
 
 [vars]
 # Non-secret env vars go here
-
-# Pages-specific build config is handled via the deploy command:
-#   wrangler pages deploy dist
